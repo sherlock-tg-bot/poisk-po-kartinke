@@ -82,4 +82,3 @@
 - [FAQ: поиск по картинке](FAQ.md)
 - [Правила законного и безопасного использования](SECURITY.md)
 
-![Content validation](https://github.com/sherlock-tg-bot/poisk-po-kartinke/actions/workflows/validate.yml/badge.svg)
