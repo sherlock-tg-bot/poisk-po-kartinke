@@ -106,6 +106,10 @@
       .grid { grid-template-columns: 1fr; }
       .lead { font-size: 1.05rem; }
     }
+
+    .topic-visual { margin:26px 0; }
+    .topic-visual img { display:block; width:100%; height:auto; aspect-ratio:16 / 9; object-fit:cover; border:1px solid #ffffff20; border-radius:12px; background:#0b1220; }
+    .topic-visual figcaption { margin-top:10px; color:inherit; opacity:.74; font-size:.92rem; line-height:1.5; }
   </style>
 </head>
 <body>
@@ -114,6 +118,10 @@
     <h1>Поиск по картинке: как найти источник и проверить совпадение</h1>
     <p class="lead">Поиск по картинке помогает обнаружить открытые страницы с тем же или похожим изображением. Используйте найденные совпадения как отправную точку: окончательный вывод проверяйте по первоисточнику, дате и контексту.</p>
     <a class="button" href="https://go.sherlockbot.is/?utm_source=github&amp;utm_medium=repository&amp;utm_campaign=poisk-po-kartinke">Открыть в Telegram</a>
+    <figure class="topic-visual">
+      <img src="assets/poisk-po-kartinke-guide.webp" alt="Разбор изображения по цвету, форме и текстуре для поиска похожих картинок" width="1200" height="675" loading="eager" decoding="async">
+      <figcaption>Визуальный поиск анализирует разные признаки картинки и формирует несколько групп возможных совпадений.</figcaption>
+    </figure>
   </header>
 
   <main class="wrap">
